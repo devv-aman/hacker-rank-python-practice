@@ -6,6 +6,7 @@
 
 | Points | Rank | Date  |
 |:-----: |:----:| :----:|
+| 1765 | 1918  | 23/03/2018: 11:02 PM [IST] |
 | 1405 | 3027  | 22/03/2018: 11:15 PM [IST] |
 | 1175 | 4188  | 21/03/2018: 11:14 PM [IST] |
 | 985 | 5596  | 17/03/2018: 3:12 AM [IST] |
@@ -19,6 +20,7 @@
 
 | Problem | Date |
 | :------:|:----:|
+| 11 Problems solved from regex subdomain | 23/03/2018 |
 | 10 Problems solved, subdomain built-ins, python functionals and 5 problems of regex and parsing complete | 22/03/2018 |
 | 10 Problems solved, subdomain date-and-time, errors, classes and 4 problem of built-ins completed | 21/03/2018 |
 | 15 Problems solved, subdomain itertools and collections completed | 17/03/2018 |
