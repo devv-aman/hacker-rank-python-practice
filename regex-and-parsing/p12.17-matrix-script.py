@@ -1,14 +1,14 @@
 # Problem: https://www.hackerrank.com/challenges/matrix-script/problem
 
-n, m = input().strip().split(' ')
-n, m = [int(n), int(m)]
-matrix = []
-matrix_i = 0
-for matrix_i in range(n):
-    matrix_t = str(input().strip())
-    matrix.append(matrix_t)
+import re
 
-print(matrix)
-# for i in range(m):
-#     for j in range(n):
-#         print(matrix[j][i])
+n, m = map(int, input().split())
+matrix = []
+for _ in range(n):
+    matrix.append(input())
+
+matrix_string = ""
+for m in zip(*matrix):
+    matrix_string += "".join(m)
+
+print(re.sub(r"(\w)([\W\s]+)(\w)", r"\1 \3", matrix_string))
